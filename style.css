@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Raleway:ital,wght@0,300;1,200&display=swap'); 
 
 :root{ 
---orange:#ffa500;
+--orange:#0084ff;
 
 }
 
-*{ font-family: 'Nunito', sans-serif;
+*{ font-family: Raleway ;
  margin: 0;
  padding: 0;
  box-sizing: border-box;
@@ -253,7 +254,7 @@ border-color: var(--orange);;
     color: var(--orange);
 }
 
-.home { min-height: 100vh;
+.home { min-height: 110vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -287,6 +288,15 @@ border-color: var(--orange);;
     top: 0; left: 0;
     z-index: -1;
     height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home .video-container img{
+    position: absolute;
+    top: 0; left: 0;
+    z-index: -1;
+    height: 50%;
     width: 100%;
     object-fit: cover;
 }
